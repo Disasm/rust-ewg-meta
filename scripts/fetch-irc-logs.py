@@ -29,7 +29,7 @@ def main():
     url = "https://mozilla.logbot.info/rust-embedded/%s/raw" % date.strftime("%Y%m%d")
     logs_data = fetch_url(url)
 
-    leaders = ["japaric", "jamesmunns"]
+    leaders = ["japaric", "jamesmunns", "therealprof"]
     starts = ["let's start this meeting", "lets get this started", "let's get started"]
     ends = ["thanks everyone for attending", "and see you next week", "thanks to everyone for attending", "see you all next week"]
 
